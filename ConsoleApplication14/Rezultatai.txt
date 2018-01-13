@@ -1,0 +1,7 @@
+Skyrikliai : tarpo simbolis, taskas, kablelis
+1-oje eiluteje yra 12 skyrikliai
+2-oje eiluteje yra 19 skyrikliai
+3-oje eiluteje yra 8 skyrikliai
+4-oje eiluteje yra 23 skyrikliai
+5-oje eiluteje yra 0 skyrikliai
+daugiausias skyrikliu yra 4-oje eiluteje 
