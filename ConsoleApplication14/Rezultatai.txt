@@ -5,3 +5,4 @@ Skyrikliai : tarpo simbolis, taskas, kablelis
 4-oje eiluteje yra 23 skyrikliai
 5-oje eiluteje yra 0 skyrikliai
 daugiausias skyrikliu yra 4-oje eiluteje 
+Bet sio testo tikras rezultatas yra kad tu esi duhas
