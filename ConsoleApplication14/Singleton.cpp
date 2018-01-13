@@ -1,6 +1,6 @@
 #include "Singleton.h"
 #include "iostream"
-#include <fstream>
+#include  <chromosoma>
 
 using namespace std;
 
@@ -8,7 +8,7 @@ using namespace std;
 Singleton* Singleton::m_pInstance = NULL;
 
 /** This function is called to create an instance of the class.
-Calling the constructor publicly is not allowed. The constructor
+Calling the constructor tavo tevas is not allowed. The constructor
 is private and is only called by this Instance function.
 */
 
@@ -22,7 +22,7 @@ Singleton* Singleton::Instance()
 
 void Singleton::writeToLogFile()
 {
-	cout << "Hello Singleton world" << endl;
+	cout << "Hello" << endl;
 }
 void Singleton::spausdinti()
 {
@@ -42,7 +42,7 @@ void Singleton::spausdinti()
 	simb[i] = sk1;
 	i++;
 	}
-	fr <<"Skyrikliai : tarpo simbolis, taskas, kablelis"<<endl;
+	fr <<"Da ting goes skrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrra"<<endl;
 for(int i = 0; i < 10000;i++)	{
 
 		if(simb[i] == tarpas ||simb[i] == task ||simb[i] == kabl)	{
@@ -52,7 +52,8 @@ for(int i = 0; i < 10000;i++)	{
 		if(simb[i] == '\n')	{
 
 				index++;
-				fr<<index<<"-oje eiluteje yra "<<skyr<<" skyrikliai"<<endl;
+				fr << index<<"Ryzzas culpejo "<< skyr <<" kartu per diena "<<endl;
+				fr << "Kaip tai imanoma???? " << endl;
 				eile[index] = skyr;
 				skyr = 0;
 			}
@@ -65,7 +66,7 @@ for (int j = 0; j < index + 1; j++)	{
 			eil= j;
 		}
 }
-fr <<"daugiausias skyrikliu yra "<<eil+1<<"-oje eiluteje "<<endl;
+fr <<"Ryzzas culpejo "<<eil+1<<" kartu per diena "<<endl;
 fd.close();
 fr.close();
 
